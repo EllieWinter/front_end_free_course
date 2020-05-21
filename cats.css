@@ -1,0 +1,23 @@
+body {
+	background-color: rgb(217, 85, 1, 0.6);
+	}
+
+h1 {
+	background-image:url("https://media.cdnws.com/_i/6533/cs200-12276/2980/78/cats-coral.jpeg");
+	background-position: left;
+	background-repeat: repeat;
+	text-align: center;
+	text-decoration: overline;
+	text-transform: capitalize;
+}
+
+h2 {
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+
+ol {
+	list-style-type: upper-roman;
+}
+
