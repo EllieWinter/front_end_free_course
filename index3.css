@@ -1,0 +1,157 @@
+
+
+.packages {
+  font-family: Brawler;
+  align-content:  center;
+}
+
+.navbar {
+  
+  font-family: Brawler;
+  font-size: 20px;
+}
+
+
+
+/*card infp*/
+.container{
+  height: 200%;
+  width: 200%;
+  position: center;
+ 
+padding-left: 50px;
+padding-right: 50px;
+  display: flex;
+  align-content: center;
+  text-align: center;
+
+  background-color: #f2f2f2;
+  justify-content: center;
+  margin: 50px;
+
+
+}
+
+.card{
+  height: 280px;
+  max-width: 440px;
+  margin: 0 20px;
+   
+    margin-bottom: 0px;
+    background: #ffffff;
+    box-shadow: 1px 1px 1px #dfdfdf;
+    box-sizing: border-box;
+    height: 100% !important;
+
+}
+
+.card-body {
+  height: 280px;
+    width: 100%;
+    padding: 9px 20px 9px 20px;
+    margin-bottom: 0px;
+    background: #ffffff;
+    box-shadow: 1px 1px 1px #dfdfdf;
+    box-sizing: border-box;
+    height: 100% !important;
+
+}
+
+.card-text {
+  font-size: 15px;
+  font-family: Brawler;
+  
+  color: #202020;
+  text-align: justify;
+
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: 
+    
+
+
+  }
+  .card{
+    max-width: 700px;
+    margin: 20px 0;
+
+    
+  }
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container_1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+.footer {
+  
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #610b0b;
+  color: white;
+  text-align: center;
+
+}
